@@ -5,7 +5,7 @@ Please respect the license and cite this source if you use it. By citing my name
 
 Thank you.  - Angela Louise Trainor
 
-![Python CI](https://github.com/<your-username>/
+![Python CI](https://github.com/<UnhingedNuke>/
 VisualCortexBENN/actions/workflows/ci.yml/badge.svg)
 **VisualCortexBENN** is a neural network inspired by the
 human visual cortex.
@@ -37,7 +37,7 @@ pip install torch torchvision
 Follow these steps to quickly run and train
 VisualCortexBENN from GitHub:
 1. Clone the Repository
-git clone https://github.com/<your-username>/
+git clone https://github.com/<UnhingedNuke>/
 VisualCortexBENN.git
 cd VisualCortexBENN
 2. Install Dependencies
