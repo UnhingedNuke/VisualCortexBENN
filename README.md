@@ -105,7 +105,7 @@ Badge above shows the current build status.
 
 ## License
 
-This project is licensed under the terms of the [MIT License](LICENSE).
+This project is licensed under the terms of the GPL 3.0 LICENSE.
 
 Author: Angela Trainor
 Date: 08/22/2025
