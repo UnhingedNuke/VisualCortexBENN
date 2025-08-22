@@ -66,8 +66,8 @@ transforms.Resize((64,64)),
                              ]))
 5. Train the Model
 transforms.ToTensor()
-from visual_cortex_ben import VisualCortexBEN, Trainer
-model = VisualCortexBEN()
+from visual_cortex_ben import VisualCortexBENN, Trainer
+model = VisualCortexBENN()
 trainer = Trainer(model, classifier_out=10)
 trainer.train(train_dataset, val_dataset=val_dataset,
 epochs=3, batch_size=32)
@@ -97,7 +97,7 @@ Next Steps
 Below is a visual schematic of how VisualCortexBENN
 processes data:
   
-• Input→VisualCortexBEN→Embeddings→Classifier→ Predictions / Metrics
+• Input→VisualCortexBENN→Embeddings→Classifier→ Predictions / Metrics
 • Thishelpsusersunderstandthefullpipelineata glance.
 Using GitHub CI
 This repository includes a GitHub Actions workflow that
