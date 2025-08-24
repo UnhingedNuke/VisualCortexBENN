@@ -1,5 +1,5 @@
 # VisualCortexBENN
-The Visual Cortex BENN(Biologically-inspired Emotional Neural Network) is a machine learning model designed to identify, discern, and recreate different images at a rate exponentially faster than other learning models by using an emotionally based learning algorithm that closely mimicks the actual neuron firing pattern to, within, and from the visual cortex within the human brain. 
+The Visual Cortex BENN(Biologically-inspired Emotional Neural Network) is a machine learning model designed to identify, discern, and recreate different images at a rate faster than other learning models by utilizing an emotionally based learning algorithm that closely mimicks the actual neuron firing pattern to, within, and from the visual cortex within the human brain. 
 
 Please respect the license and cite this source if you use it. By citing my name, you're helping me to have a future pursing my passion, preventing my work from being stolen in the future, and giving me the recognition to keep helping our society. 
 
