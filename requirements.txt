@@ -1,1 +1,7 @@
+So, This is obviously a lovely work in progress that I created to be a pain
+to just about anyone and everyone in this industry.
 
+So, if you want to use this inside your program, it's a great idea to implement it as 
+a subtransformer inside of your program. : D
+
+You're welcome genius.
