@@ -85,31 +85,28 @@ python visual_cortex_ben.py
 Verifies forward pass, output shapes, and gradients.
 
 ### 4. Prepare Training Data
-Use a built-in dataset or your own:
-from torchvision import datasets, transforms
-transform = transforms.Compose([
-    transforms.Resize((64,64)),
-    transforms.ToTensor()
-])
-train_dataset = datasets.CIFAR10(root="./data", train=True,
-download=True, transform=transform)
 
- val_dataset = datasets.CIFAR10(root="./data", train=False,
-download=True, transform=transform)
-For custom datasets:
-from torchvision.datasets import ImageFolder
-custom_dataset = ImageFolder(root="./my_images",
-                             transform=transforms.Compose([
-transforms.Resize((64,64)),
-                             ]))
+**Use a built-in dataset or your own:**
+
+    from torchvision import datasets, transforms
+    transform = transforms.Compose([transforms.Resize((64,64)), transforms.ToTensor()])
+    train_dataset = datasets.CIFAR10(root="./data", train=True, download=True, transform=transform)
+    val_dataset = datasets.CIFAR10(root="./data", train=False, download=True, transform=transform)
+    
+**For custom datasets:**
+
+    from torchvision.datasets import ImageFolder
+    custom_dataset = ImageFolder(root="./my_images", transform=transforms.Compose([transforms.Resize((64,64)), ]))
                              
 ### 5. Train the Model
-transforms.ToTensor()
-from visual_cortex_ben import VisualCortexBENN, Trainer
-model = VisualCortexBENN()
-trainer = Trainer(model, classifier_out=10)
-trainer.train(train_dataset, val_dataset=val_dataset,
-epochs=3, batch_size=32)
+
+    transforms.ToTensor()
+    from visual_cortex_ben import VisualCortexBENN, Trainer
+    model = VisualCortexBENN()
+    trainer = Trainer(model, classifier_out=10)
+    trainer.train(train_dataset, val_dataset=val_dataset, epochs=3, batch_size=32)
+
+Although the train and generate files are not currently available, they are not difficult to generate and create.
 
 
 ## Concept Reference
