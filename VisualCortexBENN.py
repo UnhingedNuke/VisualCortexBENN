@@ -1,3 +1,20 @@
+"""
+VisualCortexBENN
+
+Copyright (c) 2025–2026 Angela Louise Trainor
+
+Relicensing Notice:
+This project was originally released in 2025 under the GNU General Public
+License (GPL). As of March 6, 2026, the author has relicensed the work under
+the MIT License.
+
+Copies of this software obtained prior to the relicensing date may exist
+under the GNU General Public License according to the terms under which
+they were originally distributed.
+
+See the LICENSE file for full details.
+"""
+
 #   Title:  VisualCortexBENN2
 #   Desc:   A program that allows for better image processing
 #           utilizing a more incentive reward system.
