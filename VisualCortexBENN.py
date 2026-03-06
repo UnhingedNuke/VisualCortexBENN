@@ -15,7 +15,7 @@ they were originally distributed.
 See the LICENSE file for full details.
 """
 
-#   Title:  VisualCortexBENN2
+#   Title:  VisualCortexBENN
 #   Desc:   A program that allows for better image processing
 #           utilizing a more incentive reward system.
 #   Author: Angela Trainor
