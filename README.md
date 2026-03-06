@@ -120,14 +120,14 @@ VisualCortexBENN_Concept.pdf)
 ## Project Structure
 ```
  VisualCortexBENN/
-├── visual_cortex_ben.py
+├── VisualCortexBENN.py
+├── VisualCortexBENNTester.py
 ├── requirements.txt
 ├── docs/
-│ ├── The Benn Architecture - An Exploration.pdf
+│ ├── The BENN Architecture- An Exploration of Biologically-Inspired Emotional Neural Networks.pdf
 │ └── data/
 |    ├── image gen
 |    └── custom
-├── VisualCortexBENNTester.py
 ├── README.md
 └── LICENSE
 ```
