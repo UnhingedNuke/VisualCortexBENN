@@ -1,5 +1,5 @@
 # VisualCortexBENN
-The Visual Cortex BENN(Biologically-inspired Emotional Neural Network) is a machine learning model designed to identify, discern, and recreate different images at a rate faster than other learning models by utilizing an emotionally based learning algorithm that closely mimicks the actual neuron firing pattern to, within, and from the visual cortex within the human brain. 
+The Visual Cortex BENN(Biologically-inspired Emotional Neural Network) is a Python-based software project developed by Angela Louise Trainor. It is a machine learning model designed to identify, discern, and recreate different images at a rate faster than other learning models by utilizing an emotionally based learning algorithm that closely mimicks the actual neuron firing pattern to, within, and from the visual cortex within the human brain. 
 
 Please respect the license and cite this source if you use it. By citing my name, you're helping me to have a future pursing my passion, preventing my work from being stolen in the future, and giving me the recognition to keep helping our society. 
 
@@ -107,8 +107,13 @@ Badge above shows the current build status.
 
 ## License
 
-This project is licensed under the terms of the GPL 3.0 LICENSE.
+This project is licensed under the **MIT License**.  
+See the [LICENSE](https://github.com/UnhingedNuke/VisualCortexBENN/blob/main/LICENSE) file for the full license text.
 
-Author: Angela Trainor
-Date: 08/22/2025
+### License History
 
+- **2025-08-22** — Initially released under the GNU General Public License (GPL).
+- **2026-03-06** — Relicensed by the author under the MIT License.
+
+Copies distributed prior to the relicensing date may remain available under
+the GPL according to the terms under which they were originally released.
