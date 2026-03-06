@@ -15,12 +15,6 @@ they were originally distributed.
 See the LICENSE file for full details.
 """
 
-#   Title:  VisualCortexBENN
-#   Desc:   A program that allows for better image processing
-#           utilizing a more incentive reward system.
-#   Author: Angela Trainor
-#   Date:   10/24/2025
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
