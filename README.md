@@ -17,53 +17,48 @@ The Visual Cortex BENN(Biologically-inspired Emotional Neural Network) is a Pyth
 ```mermaid
 flowchart TD
 
-A[Input Image (B,3,H,W)] --> B[Conv2D 3→32 + ReLU]
-B --> C[Conv2D 32→64 + ReLU]
-C --> D[Conv2D 64→128 + ReLU]
+    A[Input Image Bx3xHxW] --> B[Conv2D 3 to 32 + ReLU]
+    B --> C[Conv2D 32 to 64 + ReLU]
+    C --> D[Conv2D 64 to 128 + ReLU]
 
-D --> E[AdaptiveAvgPool2D → (8x8)]
-E --> F[Flatten → 8192 Features]
+    D --> E[AdaptiveAvgPool2D 8 by 8]
+    E --> F[Flatten to 8192 Features]
 
-%% Color and Texture
-F --> G1[Color FC Layers]
-G1 --> G2[Color Embedding (64)]
+    F --> G1[Color Fully Connected]
+    G1 --> G2[Color Embedding 64]
 
-F --> H1[Texture FC Layers]
-H1 --> H2[Texture Embedding (64)]
+    F --> H1[Texture Fully Connected]
+    H1 --> H2[Texture Embedding 64]
 
-%% Shape Emotion
-F --> I1[Symmetry FC]
-F --> I2[Curvature FC]
-F --> I3[Complexity FC]
+    F --> I1[Symmetry FC]
+    F --> I2[Curvature FC]
+    F --> I3[Complexity FC]
 
-I1 --> J[Symmetry (8)]
-I2 --> K[Curvature (8)]
-I3 --> L[Complexity (8)]
+    I1 --> J[Symmetry 8]
+    I2 --> K[Curvature 8]
+    I3 --> L[Complexity 8]
 
-J --> M[Shape Emotion Sum]
-K --> M
-L --> M
-M --> N[Shape Emotion Vector (8)]
+    J --> M[Shape Emotion Sum]
+    K --> M
+    L --> M
 
-%% Spatial Centroid
-F --> O[Centroid FC]
-O --> P[Centroid Coordinates (32)]
+    M --> N[Shape Emotion Vector 8]
 
-%% Entity Embedding
-F --> Q[Entity FC]
-Q --> R[Entity Embedding (128)]
+    F --> O[Centroid FC]
+    O --> P[Centroid Coordinates 32]
 
-%% Attention
-F --> S[Attention FC]
-S --> T[Attention Score (1)]
+    F --> Q[Entity FC]
+    Q --> R[Entity Embedding 128]
 
-%% Output
-G2 --> U[Model Output Dictionary]
-H2 --> U
-N --> U
-P --> U
-R --> U
-T --> U
+    F --> S[Attention FC]
+    S --> T[Attention Score 1]
+
+    G2 --> U[Output Dictionary]
+    H2 --> U
+    N --> U
+    P --> U
+    R --> U
+    T --> U
 ```
 
 ## Requirements - Python 3.8+
