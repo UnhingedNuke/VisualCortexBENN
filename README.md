@@ -120,12 +120,14 @@ VisualCortexBENN_Concept.pdf)
 ## Project Structure
 ```
  VisualCortexBENN/
-├── visual_cortex_ben.py ├── requirements.txt ├── docs/
-│ ├── VisualCortexBENN_Concept.pdf
+├── visual_cortex_ben.py
+├── requirements.txt
+├── docs/
+│ ├── The Benn Architecture - An Exploration.pdf
 │ └── data/
-├── notebooks/
-├── tests/
-├── examples/
+|    ├── image gen
+|    └── custom
+├── VisualCortexBENNTester.py
 ├── README.md
 └── LICENSE
 ```
