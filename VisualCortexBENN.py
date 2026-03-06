@@ -26,7 +26,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 #start of class
-class VisualCortexBENN2(nn.Module):
+class VisualCortexBENN(nn.Module):
     def __init__(self):
         super().__init__()
 
