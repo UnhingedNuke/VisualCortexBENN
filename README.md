@@ -117,6 +117,19 @@ For detailed explanation, see the PDF:
 [Visual Cortex-inspired Neural Network Design](./docs/
 VisualCortexBENN_Concept.pdf)
 
+## Research Papers
+
+The following independent research papers provide additional background,
+methodology, and theoretical context related to this project.
+
+- **The BENN Architecture: An Exploration of Biologically-Inspired Emotional Neural Networks**  
+  Short description of what the paper covers and how it relates to the project.  
+  [Read the paper]((https://github.com/UnhingedNuke/VisualCortexBENN/blob/main/The%20BENN%20Architecture-%20An%20Exploration%20of%20Biologically-Inspired%20Emotional%20Neural%20Networks.pdf))
+
+- **Neuro-Symbolic Visual Perception: A Modular Visual Cortex–Inspired Embedding Network for Photographic Intelligence**  
+  Brief explanation of the research contribution.  
+  [Read the paper](link-to-paper)
+
 ## Project Structure
 ```
  VisualCortexBENN/
