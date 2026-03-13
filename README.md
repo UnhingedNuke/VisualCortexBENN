@@ -135,16 +135,20 @@ methodology, and theoretical context related to this project.
 ## Project Structure
 ```
  VisualCortexBENN/
-├── VisualCortexBENN.py
-├── VisualCortexBENNTester.py
-├── requirements.txt
 ├── docs/
-│ ├── The BENN Architecture- An Exploration of Biologically-Inspired Emotional Neural Networks.pdf
+│ ├── research/
+| |  ├── The BENN Architecture- An Exploration of Biologically-Inspired Emotional Neural Networks.pdf
+| |  └── Neuro-Symbolic Visual Perception- A Breakdown of BENN’s Modular Visual Cortex-Inspired Embedding Network for Photographic Intelligence.pdf
 │ └── data/
 |    ├── image gen
 |    └── custom
+├── models/
+│ └── VisualCortexBENN.py
+├── test/
+│ └── VisualCortexBENNPreCheckTester.py
 ├── README.md
-└── LICENSE
+├── LICENSE
+└── requirements.txt
 ```
 
 ## License
