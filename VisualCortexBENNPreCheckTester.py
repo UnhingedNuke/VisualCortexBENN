@@ -3,7 +3,7 @@
 
 import torch
 
-class VisualCortexBENNTester:
+class VisualCortexBENNPreCheckTester:
     """
     Simple diagnostic tester for the VisualCortexBENN model.
 
