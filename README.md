@@ -128,7 +128,7 @@ methodology, and theoretical context related to this project.
 
 - **Neuro-Symbolic Visual Perception: A Modular Visual Cortex–Inspired Embedding Network for Photographic Intelligence**  
   Brief explanation of the research contribution.  
-  [Read the paper](link-to-paper)
+  [Read the paper](https://github.com/UnhingedNuke/VisualCortexBENN/blob/main/docs/research/Neuro-Symbolic%20Visual%20Perception-%20A%20Breakdown%20of%20BENN%E2%80%99s%20Modular%20Visual%20Cortex-Inspired%20Embedding%20Network%20for%20Photographic%20Intelligence.pdf)
 
 ## Project Structure
 ```
