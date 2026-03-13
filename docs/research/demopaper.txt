@@ -1,1 +1,0 @@
-This holds the research folder open so that it can accept any pdf files related to independent research of these transformer functions.
